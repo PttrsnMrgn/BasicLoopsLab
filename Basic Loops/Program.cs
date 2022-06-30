@@ -1,13 +1,13 @@
-﻿////Basic Loops Lab 1.1**************************************************************************
-//string restart;
-//do
-//{
-//    Console.WriteLine("Hello World! \nWould you like to continue? (y/n)? ");
-//    restart = Console.ReadLine().ToLower();
-//}
-//while (restart == "y");
-//Console.WriteLine("Goodbye!");
-//Thread.Sleep(5000);
+﻿//Basic Loops Lab 1.1**************************************************************************
+string restart;
+do
+{
+    Console.WriteLine("Hello World! \nWould you like to continue? (y/n)? ");
+    restart = Console.ReadLine().ToLower();
+}
+while (restart == "y");
+Console.WriteLine("Goodbye!");
+Thread.Sleep(5000);
 
 ////Basic loops lab 1.2**************************************************************************
 //string restart;
@@ -72,27 +72,27 @@
 //Console.WriteLine("GOODBYE!");
 //Thread.Sleep(5000);
 
-//Basic Loops Lab 1.5****************************************************************************
-Console.WriteLine("Enter Passcode:");
-int passcode = int.Parse(Console.ReadLine());
-int attempts = 5;
+////Basic Loops Lab 1.5****************************************************************************
+//Console.WriteLine("Enter Passcode:");
+//int passcode = int.Parse(Console.ReadLine());
+//int attempts = 5;
 
-do
-{
-    attempts--;
-    Console.Clear();
-    Console.WriteLine("ACCESS DENIED!\nRe-enter Passcode.");
-    passcode = int.Parse(Console.ReadLine());
-}
-while (attempts > 0 && passcode != 13579);
+//do
+//{
+//    attempts--;
+//    Console.Clear();
+//    Console.WriteLine("ACCESS DENIED!\nRe-enter Passcode.");
+//    passcode = int.Parse(Console.ReadLine());
+//}
+//while (attempts > 0 && passcode != 13579);
 
-if (passcode == 13579)
-{
-    Console.WriteLine("\nACCESS GRANTED!\nWELCOME.");
-    Thread.Sleep(5000);
-    Environment.Exit(0);
-}
+//if (passcode == 13579)
+//{
+//    Console.WriteLine("\nACCESS GRANTED!\nWELCOME.");
+//    Thread.Sleep(5000);
+//    Environment.Exit(0);
+//}
 
-Console.WriteLine("\nTOO MANY FAILED ATTEMPTS");
-Console.WriteLine("GOODBYE!");
-Thread.Sleep(5000);
+//Console.WriteLine("\nTOO MANY FAILED ATTEMPTS");
+//Console.WriteLine("GOODBYE!");
+//Thread.Sleep(5000);

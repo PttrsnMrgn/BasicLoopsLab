@@ -84,7 +84,7 @@ Thread.Sleep(5000);
 //    Console.WriteLine("ACCESS DENIED!\nRe-enter Passcode.");
 //    passcode = int.Parse(Console.ReadLine());
 //}
-//while (attempts > 0 && passcode != 13579);
+//while (attempts > 1 && passcode != 13579);
 
 //if (passcode == 13579)
 //{
